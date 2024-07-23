@@ -58,7 +58,7 @@ a:hover{
     width: 100%;
     height: 100%;
     /* background: #000 url(/assets/images/dark-bg.webp) 50% no-repeat; */
-    background: #000 url(../images/dark-bg.webp) 50% no-repeat;
+    background: #000 url(../../assets/images/dark-bg.webp) 50% no-repeat;
     background-size: cover;
     filter: brightness(50%);
     -webkit-filter: brightness(50%);
@@ -450,7 +450,9 @@ a:hover{
         background-position: center;
         background-repeat: no-repeat;
         /* background-image: url(/assets/images/portrait.webp); */
-        background-image: url(../images/portrait.webp);
+        /* background-image: url(../images/portrait.webp); */
+    background-image: url(../images/shahid-remove-bg.png);
+
     }
 
     .hero-content{
